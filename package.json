@@ -1,0 +1,14 @@
+{
+"name": "countries-app",
+"version": "1.0.0",
+"description": "App for tracking the countries your friends are from.",
+"main": "index.js",
+"author": "cecilgwilliams",
+"license": "ISC",
+"dependencies": {
+"body-parser": "^1.9.0",
+"express": "^4.12.4",
+"mongoose": "^4.0.5",
+"node-restful": "^0.1.17"
+}
+}
