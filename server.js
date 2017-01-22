@@ -14,13 +14,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
  
 // Routes
-//var routes = require('./routes');
-//app.use('/', routes);
-app.use('/', require('./person/')) 
-
-// app.get('/persons', function(req, res){
-//     res.json({persons:"you asked for persons"})
-// })
+app.use('/', require('./colleague/')) 
 
 // Start server
 app.listen(3000, ()=> {

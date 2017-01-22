@@ -3,10 +3,10 @@ var restful = require('node-restful');
 var mongoose = restful.mongoose;
  
 // Schema
-var personSchema = new mongoose.Schema({
+var colleagueSchema = new mongoose.Schema({
     name: String,
-     country: String
+    country: String
 });
  
 // Return model
-module.exports = restful.model('Person', personSchema);
+module.exports = restful.model('Colleague', colleagueSchema);
